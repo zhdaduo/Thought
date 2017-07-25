@@ -4,9 +4,9 @@
   <subtitle>Thougth Is Beautiful</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://zhdaduo.github.io/"/>
   <updated>2017-07-25T10:12:47.426Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://zhdaduo.github.io/</id>
   
   <author>
     <name>John Doe</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2017/07/25/hello-world/"/>
-    <id>http://yoursite.com/2017/07/25/hello-world/</id>
+    <link href="https://zhdaduo.github.io/2017/07/25/hello-world/"/>
+    <id>https://zhdaduo.github.io/2017/07/25/hello-world/</id>
     <published>2017-07-25T10:12:47.426Z</published>
     <updated>2017-07-25T10:12:47.426Z</updated>
     
