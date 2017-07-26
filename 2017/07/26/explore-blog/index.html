@@ -8,55 +8,52 @@
 <p>如果已经安装完成以上程序，右键打开<code>Git-bash</code>，切换至<a href="http://npm.taobao.org" target="_blank" rel="external">淘宝NPM镜像</a>进行接下来的安装:</p>
 <ul>
 <li><p>你可以使用我们定制的 <a href="https://github.com/cnpm/cnpm" target="_blank" rel="external">cnpm</a> (gzip 压缩支持) 命令行工具代替默认的 <code>npm</code></p>
-<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">npm</span> install -g cnpm --registry=https:<span class="regexp">//</span>registry.<span class="built_in">npm</span>.taobao.org</div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></div></pre></td></tr></table></figure>
 </li>
 <li><p>可能遇到 <code>npm command not found</code>的问题</p>
-<p>​</p>
-<blockquote>
-<figure class="highlight livescript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; 计算机<span class="function">-&gt;</span>属性<span class="function">-&gt;</span>高级系统设置<span class="function">-&gt;</span>环境变量<span class="function">-&gt;</span>用户变量 :</div><div class="line">&gt; 在 PATH 中添加 C:<span class="string">\Users\your</span> computer name<span class="string">\AppData\Roaming\npm</span></div><div class="line">&gt;</div></pre></td></tr></table></figure>
-</blockquote>
 </li>
 </ul>
-<p>​安装<code>Hexo</code>:</p>
-<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cnpm install -g hexo-<span class="keyword">cli</span></div></pre></td></tr></table></figure>
+<blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; 计算机-&gt;属性-&gt;高级系统设置-&gt;环境变量-&gt;用户变量 :</div><div class="line">&gt; 在 PATH 中添加 C:\Users\your computer name\AppData\Roaming\npm</div><div class="line">&gt;</div></pre></td></tr></table></figure>
+</blockquote>
+<p>安装<code>Hexo</code>:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cnpm install -g hexo-cli</div></pre></td></tr></table></figure>
 <h2 id="使用Hexo进行本地建站"><a href="#使用Hexo进行本地建站" class="headerlink" title="使用Hexo进行本地建站"></a>使用Hexo进行本地建站</h2><p>新建一个本地的文件夹，如C:\HEXO</p>
 <p>进入Git安装的目录，选择<code>git-bash.exe</code>右键管理员权限打开， 输入</p>
-<figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo init C:<span class="string">/HEXO</span></div><div class="line"><span class="keyword">cd</span> C:<span class="string">/HEXO</span></div><div class="line">cnpm install</div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo init C:/HEXO</div><div class="line">cd C:/HEXO</div><div class="line">cnpm install</div></pre></td></tr></table></figure>
 <p>如果<code>hexo</code>安装成功，则在<code>C:\hexo</code>文件夹下的文件目录为</p>
 <figure class="highlight sqf"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">.</div><div class="line">├── <span class="variable">_config</span>.yml <span class="comment">// 网站的配置信息，你可以在此配置大部分的参数。</span></div><div class="line">├── package.json </div><div class="line">├── scaffolds <span class="comment">// 模板文件夹。当你新建文章时，Hexo会根据scaffold来建立文件。</span></div><div class="line">├── source <span class="comment">// 存放用户资源的地方</span></div><div class="line">|   ├── <span class="variable">_drafts</span></div><div class="line">|   └── <span class="variable">_posts</span></div><div class="line">└── themes <span class="comment">// 存放网站的主题。Hexo会根据主题来生成静态页面。</span></div></pre></td></tr></table></figure>
 <h2 id="创建和配置Github"><a href="#创建和配置Github" class="headerlink" title="创建和配置Github"></a>创建和配置Github</h2><p>创建<code>Github</code>账号</p>
 <p><a href="https://github.com/" target="_blank" rel="external">Github</a></p>
 <p>登录或者注册github，登录之后点击右上角的“+”号，选择“New repository”菜单，创建仓库，用于存储和博客相关的源文件。</p>
-<p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/new_repository.png" alt="new_repository"></p>
+<p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/new_repository.png" alt="新建仓库"></p>
 <p>在Repository name对应处填写仓库名(Github用户名.github.io)，下一步Create repository。</p>
 <p>选择仓库上方的Setting， 进入设置页面。</p>
-<p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/Setting.png" alt="new_repository"></p>
-<blockquote>
-<p>Setting-&gt;GitHub Pages-&gt;Change Theme-&gt;Sellect Theme</p>
+<p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/Setting.png" alt="进入Setting页面"></p>
+<figure class="highlight xl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">S<span class="function"><span class="title">etting</span>-&gt;</span>G<span class="function"><span class="title">itHub</span> Pages-&gt;</span>C<span class="function"><span class="title">hange</span> Theme-&gt;</span>Sellect Theme</div></pre></td></tr></table></figure>
 <p>完成会在GitHub Pages : 提示 Your site is ready to be published at …</p>
 <p>在页面中点击博客地址链接， 即可看到自己当前的博客首页了。</p>
-</blockquote>
 <h2 id="配置SSH"><a href="#配置SSH" class="headerlink" title="配置SSH"></a>配置SSH</h2><ul>
 <li>生成<code>SSH</code></li>
 </ul>
 <p>检查是否已经有SSH Key，打开Git Bash，输入</p>
-<figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">cd</span> ~<span class="string">/.ssh</span></div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cd ~/.ssh</div></pre></td></tr></table></figure>
 <p>如果没有这个目录，则生成一个新的SSH，输入 </p>
-<figure class="highlight excel"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -<span class="built_in">t</span> rsa -C <span class="string">"your e-mail"</span></div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -C <span class="string">"your e-mail"</span></div></pre></td></tr></table></figure>
 <p>其中，your e-mail是你注册Github时用到的邮箱。然后接下来几步都直接按回车键，最后生成如下</p>
-<p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/SSH.jpg" alt="new_repository"></p>
+<p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/SSH.jpg" alt="生成SSH成功"></p>
 <ul>
 <li><p>复制公钥内容到GitHub账号信息中</p>
-<figure class="highlight taggerscript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">公钥地址 C:<span class="symbol">\U</span>sers<span class="symbol">\y</span>our computer name<span class="symbol">\.</span>ssh<span class="symbol">\i</span>d_rsa.pub</div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">公钥地址 C:\Users\your computer name\.ssh\id_rsa.pub</div></pre></td></tr></table></figure>
 </li>
 <li><p>打开Github官网，登陆后进入到个人设置(点击头像-&gt;setting)，点击右侧的SSH Keys，点击Add SSH key；填写title之后，将之前复制的内容粘贴到Key框中，最后点击Add key即可。</p>
-<p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/add_key.jpg" alt="new_repository"></p>
+<p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/add_key.jpg" alt="Add SSH Key"></p>
 </li>
 <li><p>测试<code>SSH</code>是否配置成功</p>
-<figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ssh -T git@github.com</div><div class="line">如果显示以下，则说明ssh配置成功。</div><div class="line">Hi username! You<span class="symbol">'ve</span> successfully authenticated, but GitHub does <span class="keyword">not</span> provide shell <span class="keyword">access</span>.</div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ssh -T git<span class="meta">@github</span>.com</div><div class="line">如果显示以下，则说明ssh配置成功。</div><div class="line">Hi username! You<span class="string">'ve successfully authenticated, but GitHub does not provide shell access.</span></div></pre></td></tr></table></figure>
 </li>
 <li><p>配置github账号</p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git<span class="built_in"> config </span>--global user.name <span class="string">"username"</span></div><div class="line">git<span class="built_in"> config </span>--global user.email <span class="string">"email"</span></div><div class="line">git<span class="built_in"> config </span>--list查看已设配置</div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git config --global user.name <span class="string">"username"</span></div><div class="line">git config --global user.email <span class="string">"email"</span></div><div class="line">git config --list查看已设配置</div></pre></td></tr></table></figure>
 </li>
 </ul>
 <p>将网站发布到Github的同名repository中</p>
