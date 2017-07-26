@@ -1430,7 +1430,7 @@ table {
   table th {
     font-weight: bold;
     padding: 5px 10px;
-    border-bottom: 2px solid #909ba2; }
+    border-bottom: 5px solid #909ba2; }
   table td {
     padding: 5px 10px; }
   table tr:nth-child(2n) {
