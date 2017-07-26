@@ -1400,6 +1400,7 @@ figure.highlight,
     display: inline-block;
     line-height: 30px;
     font-size: 17px;
+    font-style: bold;
     color: #bbb;
     border-bottom: none;
     float: left; }
