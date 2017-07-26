@@ -1391,22 +1391,22 @@ figure.highlight,
 /* post navigator*/
 .post-nav {
   overflow: hidden;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 20px;
   padding: 10px;
   white-space: nowrap;
   border-top: 1px solid #eee; }
   .post-nav a {
     display: inline-block;
-    line-height: 25px;
+    line-height: 30px;
     font-size: 17px;
-    color: #BDBDBD;
+    color: #212121;
     border-bottom: none;
     float: left; }
     .post-nav a.pre {
       float: left; }
       .post-nav a.pre:before {
-        content: "PRE";
+        content: "PREV";
         padding-right: 0.7em; }
     .post-nav a.next {
       float: right; }
