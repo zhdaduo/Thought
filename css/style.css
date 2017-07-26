@@ -1400,18 +1400,20 @@ figure.highlight,
     display: inline-block;
     line-height: 30px;
     font-size: 17px;
-    color: #212121;
+    color: #fff;
     border-bottom: none;
     float: left; }
     .post-nav a.pre {
       float: left; }
       .post-nav a.pre:before {
-        content: "PREV";
+        font-family: "FontAwesome";
+        content: "\f060";
         padding-right: 0.7em; }
     .post-nav a.next {
       float: right; }
       .post-nav a.next:after {
-        content: "NEXT";
+        font-family: "FontAwesome";
+        content: "\f061";
         padding-left: 0.7em; }
     .post-nav a:hover {
       border-bottom: none;
