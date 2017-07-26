@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhdaduo.github.io/"/>
-  <updated>2017-07-26T07:44:18.161Z</updated>
+  <updated>2017-07-26T07:46:06.791Z</updated>
   <id>https://zhdaduo.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://zhdaduo.github.io/2017/07/26/explore-blog/"/>
     <id>https://zhdaduo.github.io/2017/07/26/explore-blog/</id>
     <published>2017-07-26T03:33:09.388Z</published>
-    <updated>2017-07-26T07:44:18.161Z</updated>
+    <updated>2017-07-26T07:46:06.791Z</updated>
     
     <content type="html"><![CDATA[<p>使用<code>GitHub</code> +  <code>hexo</code>  + <code>maupassant</code>主题搭建个人博客小结。</p>
 <h2 id="Hexo便捷安装"><a href="#Hexo便捷安装" class="headerlink" title="Hexo便捷安装"></a>Hexo便捷安装</h2><p><a href="https://portablehexo.bitmoe.cn/" target="_blank" rel="external">HEXO 便捷版</a></p>
@@ -37,9 +37,7 @@
 <li><p>可能遇到 <code>npm command not found</code>的问题</p>
 </li>
 </ul>
-<blockquote>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; 计算机-&gt;属性-&gt;高级系统设置-&gt;环境变量-&gt;用户变量 :</div><div class="line">&gt; 在 PATH 中添加 C:\Users\your computer name\AppData\Roaming\npm</div><div class="line">&gt;</div></pre></td></tr></table></figure>
-</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">计算机-&gt;属性-&gt;高级系统设置-&gt;环境变量-&gt;用户变量 :</div><div class="line">在 PATH 中添加 C:\Users\your computer name\AppData\Roaming\npm</div></pre></td></tr></table></figure>
 <p>安装<code>Hexo</code>:</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cnpm install -g hexo-cli</div></pre></td></tr></table></figure>
 <h2 id="使用Hexo进行本地建站"><a href="#使用Hexo进行本地建站" class="headerlink" title="使用Hexo进行本地建站"></a>使用Hexo进行本地建站</h2><p>新建一个本地的文件夹，如C:\HEXO</p>
