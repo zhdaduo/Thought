@@ -1404,7 +1404,8 @@ figure.highlight,
   max-width: 40%; }
 
 .toc-title {
-  font-size: 120%; }
+  font-size: 120%;
+  text-align: center; }
 
 #toc {
   line-height: 1em;
@@ -1430,7 +1431,7 @@ table {
   table th {
     font-weight: bold;
     padding: 5px 10px;
-    border-bottom: 2px solid #FF5722; }
+    border-bottom: 2px solid #909ba2; }
   table td {
     padding: 5px 10px; }
   table tr:nth-child(2n) {
