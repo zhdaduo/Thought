@@ -933,11 +933,10 @@ figure.highlight,
   figure.highlight .gutter,
   .codeblock .gutter {
     background: #f7f8f8;
-    border-right: 1px solid #e6e6e6;
+    border-right: 5px solid #2CBE4E;
     padding: 0.3em 15px; }
     figure.highlight .gutter .line,
     .codeblock .gutter .line {
-      border: 3px;
       color: #2CBE4E; }
   figure.highlight .code,
   .codeblock .code {
