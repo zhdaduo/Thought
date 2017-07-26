@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhdaduo.github.io/"/>
-  <updated>2017-07-26T06:07:06.213Z</updated>
+  <updated>2017-07-26T06:23:56.757Z</updated>
   <id>https://zhdaduo.github.io/</id>
   
   <author>
@@ -16,18 +16,14 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>搭建Hexo博客</title>
     <link href="https://zhdaduo.github.io/2017/07/26/explore-blog/"/>
     <id>https://zhdaduo.github.io/2017/07/26/explore-blog/</id>
     <published>2017-07-26T03:33:09.388Z</published>
-    <updated>2017-07-26T06:07:06.213Z</updated>
+    <updated>2017-07-26T06:23:56.757Z</updated>
     
-    <content type="html"><![CDATA[<p>title: 搭建Hexo博客<br>categories: </p>
-<ul>
-<li>知识笔记<br>tags: </li>
-<li>hexo<br>comments: true<br>toc: tru</li>
-</ul>
-<p>使用<code>GitHub</code> +  <code>hexo</code>  + <code>maupassant</code>主题搭建个人博客小结。</p>
+    <content type="html"><![CDATA[<p>使用<code>GitHub</code> +  <code>hexo</code>  + <code>maupassant</code>主题搭建个人博客小结。</p>
+<h2 id="Hexo便捷安装"><a href="#Hexo便捷安装" class="headerlink" title="Hexo便捷安装"></a>Hexo便捷安装</h2><p><a href="https://portablehexo.bitmoe.cn/" target="_blank" rel="external">HEXO 便捷版</a></p>
 <h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>安装<code>Hexo</code>前准备:</p>
 <ul>
 <li><code>Node.js</code> <a href="https://nodejs.org/en/" title="下载Node.js" target="_blank" rel="external">下载地址 </a> 建议安装<code>LTS</code>版本，稳定。</li>
@@ -54,35 +50,21 @@
 <h2 id="创建和配置Github"><a href="#创建和配置Github" class="headerlink" title="创建和配置Github"></a>创建和配置Github</h2><p>创建<code>Github</code>账号</p>
 <p><a href="https://github.com/" target="_blank" rel="external">Github</a></p>
 <p>登录或者注册github，登录之后点击右上角的“+”号，选择“New repository”菜单，创建仓库，用于存储和博客相关的源文件。</p>
-<p><img src="C:\HEXO\source\_posts\explore-blog\new_repository.png" alt="new_repository"></p>
+<p><img src="https://github.com/zhdaduo/zhdaduo.github.io/tree/master/2017/07/26/explore-blog/new_repository.png" alt="new_repository"></p>
 <p>在Repository name对应处填写资源名(Github用户名.github.io)</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;title: 搭建Hexo博客&lt;br&gt;categories: &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;知识笔记&lt;br&gt;tags: &lt;/li&gt;
-&lt;li&gt;hexo&lt;br&gt;comments: true&lt;br&gt;toc: tru&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;使用&lt;code&gt;GitHub&lt;/cod
+      &lt;p&gt;使用&lt;code&gt;GitHub&lt;/code&gt; +  &lt;code&gt;hexo&lt;/code&gt;  + &lt;code&gt;maupassant&lt;/code&gt;主题搭建个人博客小结。&lt;/p&gt;
+&lt;h2 id=&quot;Hexo便捷安装&quot;&gt;&lt;a href=&quot;#Hexo便捷安装&quot; class=&quot;headerl
     
     </summary>
     
+      <category term="知识笔记" scheme="https://zhdaduo.github.io/categories/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0/"/>
     
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://zhdaduo.github.io/2017/07/25/hello-world/"/>
-    <id>https://zhdaduo.github.io/2017/07/25/hello-world/</id>
-    <published>2017-07-25T10:12:47.426Z</published>
-    <updated>2017-07-26T06:06:57.943Z</updated>
     
-    <summary type="html">
-    
-    </summary>
-    
+      <category term="hexo" scheme="https://zhdaduo.github.io/tags/hexo/"/>
     
   </entry>
   
