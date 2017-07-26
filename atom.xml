@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhdaduo.github.io/"/>
-  <updated>2017-07-26T06:45:20.201Z</updated>
+  <updated>2017-07-26T07:30:16.425Z</updated>
   <id>https://zhdaduo.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://zhdaduo.github.io/2017/07/26/explore-blog/"/>
     <id>https://zhdaduo.github.io/2017/07/26/explore-blog/</id>
     <published>2017-07-26T03:33:09.388Z</published>
-    <updated>2017-07-26T06:45:20.201Z</updated>
+    <updated>2017-07-26T07:30:16.425Z</updated>
     
     <content type="html"><![CDATA[<p>使用<code>GitHub</code> +  <code>hexo</code>  + <code>maupassant</code>主题搭建个人博客小结。</p>
 <h2 id="Hexo便捷安装"><a href="#Hexo便捷安装" class="headerlink" title="Hexo便捷安装"></a>Hexo便捷安装</h2><p><a href="https://portablehexo.bitmoe.cn/" target="_blank" rel="external">HEXO 便捷版</a></p>
@@ -51,7 +51,41 @@
 <p><a href="https://github.com/" target="_blank" rel="external">Github</a></p>
 <p>登录或者注册github，登录之后点击右上角的“+”号，选择“New repository”菜单，创建仓库，用于存储和博客相关的源文件。</p>
 <p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/new_repository.png" alt="new_repository"></p>
-<p>在Repository name对应处填写资源名(Github用户名.github.io)</p>
+<p>在Repository name对应处填写仓库名(Github用户名.github.io)，下一步Create repository。</p>
+<p>选择仓库上方的Setting， 进入设置页面。</p>
+<p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/Setting.png" alt="new_repository"></p>
+<blockquote>
+<p>Setting-&gt;GitHub Pages-&gt;Change Theme-&gt;Sellect Theme</p>
+<p>完成会在GitHub Pages : 提示 Your site is ready to be published at …</p>
+<p>在页面中点击博客地址链接， 即可看到自己当前的博客首页了。</p>
+</blockquote>
+<h2 id="配置SSH"><a href="#配置SSH" class="headerlink" title="配置SSH"></a>配置SSH</h2><ul>
+<li>生成<code>SSH</code></li>
+</ul>
+<p>检查是否已经有SSH Key，打开Git Bash，输入</p>
+<figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">cd</span> ~<span class="string">/.ssh</span></div></pre></td></tr></table></figure>
+<p>如果没有这个目录，则生成一个新的SSH，输入 </p>
+<figure class="highlight excel"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -<span class="built_in">t</span> rsa -C <span class="string">"your e-mail"</span></div></pre></td></tr></table></figure>
+<p>其中，your e-mail是你注册Github时用到的邮箱。然后接下来几步都直接按回车键，最后生成如下</p>
+<p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/SSH.jpg" alt="new_repository"></p>
+<ul>
+<li><p>复制公钥内容到GitHub账号信息中</p>
+<figure class="highlight taggerscript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">公钥地址 C:<span class="symbol">\U</span>sers<span class="symbol">\y</span>our computer name<span class="symbol">\.</span>ssh<span class="symbol">\i</span>d_rsa.pub</div></pre></td></tr></table></figure>
+</li>
+<li><p>打开Github官网，登陆后进入到个人设置(点击头像-&gt;setting)，点击右侧的SSH Keys，点击Add SSH key；填写title之后，将之前复制的内容粘贴到Key框中，最后点击Add key即可。</p>
+<p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/add_key.jpg" alt="new_repository"></p>
+</li>
+<li><p>测试<code>SSH</code>是否配置成功</p>
+<figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ssh -T git@github.com</div><div class="line">如果显示以下，则说明ssh配置成功。</div><div class="line">Hi username! You<span class="symbol">'ve</span> successfully authenticated, but GitHub does <span class="keyword">not</span> provide shell <span class="keyword">access</span>.</div></pre></td></tr></table></figure>
+</li>
+<li><p>配置github账号</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git<span class="built_in"> config </span>--global user.name <span class="string">"username"</span></div><div class="line">git<span class="built_in"> config </span>--global user.email <span class="string">"email"</span></div><div class="line">git<span class="built_in"> config </span>--list查看已设配置</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>将网站发布到Github的同名repository中</p>
+<p>打开C:\HEXO 文件夹中的_config.yml文件，找到如下位置，填写</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># Deployment</div><div class="line">## Docs: http://hexo.io/docs/deployment.html</div><div class="line">deploy: </div><div class="line">  type: git</div><div class="line">  repo: git@github.com:MyGithub/MyGithub.github.io</div></pre></td></tr></table></figure>
+<p>注： (1) 其中MyGithub替换成你的Github账户; (2)注意在yml文件中，:后面都是要带空格的。</p>
 ]]></content>
     
     <summary type="html">
