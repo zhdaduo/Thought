@@ -94,31 +94,7 @@
 <p>⑩：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">HEXO/themes/maupassant/_config.yml</div><div class="line">shareto: true ## 是否使用分享按鈕</div><div class="line">## 启用分享按钮需要把HEXO/_config.yml url改为自己网站</div><div class="line">url: https://zhdaduo.github.io/</div></pre></td></tr></table></figure>
 <p>(2) HEXO/themes/maupassant/_config.yml更多说明</p>
-<blockquote>
-<p>fancybox - 是否启用<a href="http://fancyapps.com/fancybox/" target="_blank" rel="external">Fancybox</a>图片灯箱效果</p>
-<p>duoshuo - <a href="http://duoshuo.com" target="_blank" rel="external">多说评论</a> shortname</p>
-<p>disqus - <a href="https://disqus.com" target="_blank" rel="external">Disqus评论</a> shortname</p>
-<p>uyan - <a href="http://www.uyan.cc" target="_blank" rel="external">友言评论</a> id</p>
-<p>gentie - <a href="https://gentie.163.com" target="_blank" rel="external">网易云跟帖</a> productKey</p>
-<p>google_search - 默认使用Google搜索引擎</p>
-<p>baidu_search - 若想使用百度搜索，将其设定为<code>true</code>。</p>
-<p>swiftype - <a href="https://swiftype.com" target="_blank" rel="external">Swiftype</a> 站内搜索key</p>
-<p>tinysou - <a href="http://tinysou.com" target="_blank" rel="external">微搜索</a> key</p>
-<p>self_search - 基于jQuery的<a href="http://hahack.com/codes/local-search-engine-for-hexo" target="_blank" rel="external">本地搜索引擎</a>，需要安装<a href="https://github.com/PaicHyperionDev/hexo-generator-search" target="_blank" rel="external">hexo-generator-search</a>插件使用。</p>
-<p>google_analytics - <a href="https://www.google.com/analytics/" target="_blank" rel="external">Google Analytics</a> 跟踪ID</p>
-<p>baidu_analytics - <a href="http://tongji.baidu.com" target="_blank" rel="external">百度统计</a> 跟踪ID</p>
-<p>show_category_count - 是否显示侧边栏分类数目</p>
-<p>toc_number - 是否显示文章中目录列表自动编号</p>
-<p>shareto - 是否使用分享按鈕</p>
-<p>busuanzi - 是否使用<a href="http://busuanzi.ibruce.info" target="_blank" rel="external">不蒜子</a>页面访问计数</p>
-<p>widgets_on_small_screens - 是否在移动设备屏幕底部显示侧边栏</p>
-<p>menu - 自定义页面及菜单，依照已有格式填写。填写后请在<code>source</code>目录下建立相应名称的文件夹，并包含<code>index.md</code>文件，以正确显示页面。导航菜单中集成了<a href="http://fontawesome.io" target="_blank" rel="external">FontAwesome</a>图标字体，可以在<a href="http://fontawesome.io/icons/" target="_blank" rel="external">这里</a>选择新的图标，并按照相关说明使用。</p>
-<p>widgets - 选择和排列希望使用的侧边栏小工具。</p>
-<p>links - 友情链接，请依照格式填写。</p>
-<p>timeline - 网站历史时间线，在页面<code>front-matter</code>中设置<code>layout: timeline</code>可显示。</p>
-<p>Static files - 静态文件存储路径，方便设置CDN缓存。</p>
-<p>Theme version - 主题版本，便于静态文件更新后刷新CDN缓存。</p>
-</blockquote>
+<p>fancybox - 是否启用<a href="http://fancyapps.com/fancybox/" target="_blank" rel="external">Fancybox</a>图片灯箱效果<br>duoshuo - <a href="http://duoshuo.com" target="_blank" rel="external">多说评论</a> shortname<br>disqus - <a href="https://disqus.com" target="_blank" rel="external">Disqus评论</a> shortname<br>uyan - <a href="http://www.uyan.cc" target="_blank" rel="external">友言评论</a> id<br>gentie - <a href="https://gentie.163.com" target="_blank" rel="external">网易云跟帖</a> productKey<br>google_search - 默认使用Google搜索引擎<br>baidu_search - 若想使用百度搜索，将其设定为<code>true</code>。<br>swiftype - <a href="https://swiftype.com" target="_blank" rel="external">Swiftype</a> 站内搜索key<br>tinysou - <a href="http://tinysou.com" target="_blank" rel="external">微搜索</a> key<br>self_search - 基于jQuery的<a href="http://hahack.com/codes/local-search-engine-for-hexo" target="_blank" rel="external">本地搜索引擎</a>，需要安装<a href="https://github.com/PaicHyperionDev/hexo-generator-search" target="_blank" rel="external">hexo-generator-search</a>插件使用。<br>google_analytics - <a href="https://www.google.com/analytics/" target="_blank" rel="external">Google Analytics</a> 跟踪ID<br>baidu_analytics - <a href="http://tongji.baidu.com" target="_blank" rel="external">百度统计</a> 跟踪ID<br>show_category_count - 是否显示侧边栏分类数目<br>toc_number - 是否显示文章中目录列表自动编号<br>shareto - 是否使用分享按鈕<br>busuanzi - 是否使用<a href="http://busuanzi.ibruce.info" target="_blank" rel="external">不蒜子</a>页面访问计数<br>widgets_on_small_screens - 是否在移动设备屏幕底部显示侧边栏<br>menu - 自定义页面及菜单，依照已有格式填写。填写后请在<code>source</code>目录下建立相应名称的文件夹，并包含<code>index.md</code>文件，以正确显示页面。导航菜单中集成了<a href="http://fontawesome.io" target="_blank" rel="external">FontAwesome</a>图标字体，可以在<a href="http://fontawesome.io/icons/" target="_blank" rel="external">这里</a>选择新的图标，并按照相关说明使用。<br>widgets - 选择和排列希望使用的侧边栏小工具。<br>links - 友情链接，请依照格式填写。<br>timeline - 网站历史时间线，在页面<code>front-matter</code>中设置<code>layout: timeline</code>可显示。<br>Static files - 静态文件存储路径，方便设置CDN缓存。<br>Theme version - 主题版本，便于静态文件更新后刷新CDN缓存。</p>
 <p>(3) 主题特性</p>
 <ul>
 <li><p>网站图标:</p>
