@@ -36,8 +36,7 @@
 <p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/new_repository.png" alt="新建仓库"></p>
 <p>在Repository name对应处填写仓库名(Github用户名.github.io)，下一步Create repository。</p>
 <p>选择仓库上方的Setting， 进入设置页面。</p>
-<p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/Setting.png" alt="进入Setting页面"></p>
-<figure class="highlight xl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">S<span class="function"><span class="title">etting</span>-&gt;</span>G<span class="function"><span class="title">itHub</span> Pages-&gt;</span>C<span class="function"><span class="title">hange</span> Theme-&gt;</span>Sellect Theme</div></pre></td></tr></table></figure>
+<p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/Setting.png" alt="进入Setting页面"><br><code>Setting-&gt;GitHub Pages-&gt;Change Theme-&gt;Sellect Theme</code></p>
 <p>完成会在GitHub Pages : 提示 Your site is ready to be published at …</p>
 <p>在页面中点击博客地址链接， 即可看到自己当前的博客首页了。</p>
 <h2 id="配置SSH"><a href="#配置SSH" class="headerlink" title="配置SSH"></a>配置SSH</h2><ul>
