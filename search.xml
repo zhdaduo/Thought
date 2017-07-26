@@ -3,6 +3,14 @@
   
     
     <entry>
+      <title><![CDATA[explore_markdown]]></title>
+      <url>/2017/07/26/explore-markdown/</url>
+      <content type="html"></content>
+      
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[搭建Hexo博客]]></title>
       <url>/2017/07/26/explore-blog/</url>
       <content type="html"><![CDATA[<p>使用<code>GitHub</code> +  <code>hexo</code>  + <code>maupassant</code>主题搭建个人博客小结。</p>
