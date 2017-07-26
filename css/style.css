@@ -224,7 +224,7 @@ div {
     clear: left;
     font-size: 15px;
     line-height: 1.77;
-    color: #444;
+    color: #24292E;
     padding-top: 15px;
     text-align: justify;
     text-justify: distribute;
@@ -241,11 +241,12 @@ div {
       margin: 0 0 1.234em; }
       .post .post-content p code {
         display: inline-block;
+        font-family: source code pro;
         margin: 0 5px;
         padding: 0 5px;
         background: #f7f8f8; }
       .post .post-content p a {
-        color: #01579f;
+        color: #0366D6;
         padding-bottom: 2px;
         word-break: break-all; }
         .post .post-content p a:hover {
@@ -346,7 +347,7 @@ div {
   padding: .8em 0 3.6em;
   margin-top: 1em;
   line-height: 2.5;
-  color: #6E7173;
+  color: #795548;
   text-align: center; }
   #footer span {
     font-size: .9em; }
@@ -764,8 +765,9 @@ pre {
     content: "\f101";
     padding-left: 0.3em; }
   .readmore a:hover {
+    color: #FF5722;
     background: #F8F8F8;
-    border-bottom-color: #D26911; }
+    border-bottom-color: #FF5722; }
 
 /* duoshuo style*/
 #ds-thread #ds-reset {
@@ -890,7 +892,7 @@ figure.highlight,
   background: #F6F8FA;
   margin: 10px 0;
   line-height: 1.1em;
-  color: #333;
+  color: #24292E;
   padding-top: 15px;
   overflow: hidden; }
   figure.highlight table,
@@ -907,7 +909,7 @@ figure.highlight,
   .codeblock .tag {
     background-color: inherit;
     font-family: Menlo, Consolas, monospace;
-    border: 1px;
+    border: 2px;
     padding: 0;
     margin: 0;
     cursor: text; }
@@ -941,7 +943,8 @@ figure.highlight,
   figure.highlight .code,
   .codeblock .code {
     padding: 0.3em 15px 0.3em 1em;
-    width: 100%; }
+    width: 100%;
+    color: #24292E; }
     figure.highlight .code pre,
     .codeblock .code pre {
       max-width: 700px;
