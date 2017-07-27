@@ -3,10 +3,54 @@
   
     
     <entry>
-      <title><![CDATA[explore_markdown]]></title>
+      <title><![CDATA[Markdown 使用小结]]></title>
       <url>/2017/07/26/explore-markdown/</url>
-      <content type="html"></content>
+      <content type="html"><![CDATA[<p>Markdown 语法记录，Github上传readme小结。</p>
+<a id="more"></a>
+<h2 id="强调"><a href="#强调" class="headerlink" title="强调"></a>强调</h2><p><strong>bold</strong>  <code>**bold**</code><br><strong>bold</strong>  <code>__bold__</code><br> <em>italic</em> <code>*italic*</code><br> <em>italic</em> <code>_italic_</code></p>
+<p>注: 符号可跨行，符号可加空格。</p>
+<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><hr>
+<p><code>---</code></p>
+<p>注: 必须单独一行，可含空格。</p>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><blockquote>
+<p>blockquote</p>
+<blockquote>
+<p>blockquote</p>
+</blockquote>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&gt;</span><span class="bash">blockquote</span></div><div class="line"><span class="meta">&gt;</span><span class="bash">&gt;blockquote</span></div></pre></td></tr></table></figure>
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><figure class="highlight clean"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># 一级标题</div><div class="line">## 二级标题</div><div class="line">### 三级标题</div><div class="line">#### 四级标题</div><div class="line">##### 五级标题</div><div class="line">###### 六级标题</div></pre></td></tr></table></figure>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><ul>
+<li>列表</li>
+<li>列表<ul>
+<li>列表</li>
+<li>列表</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight haml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">-<span class="ruby"> 列表</span></div><div class="line">-<span class="ruby"> 列表</span></div><div class="line">  + 列表</div><div class="line">  + 列表</div></pre></td></tr></table></figure>
+<p>注:  符号后带空格，单-或者单+，都是无序列表，混合用就是嵌套列表。</p>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p><a href="https://github.com/" title="github site" target="_blank" rel="external">github</a></p>
+<p><a href="https://github.com/" target="_blank" rel="external">https://github.com/</a></p>
+<p><img src="https://github.com/fluidicon.png" alt="github" title="github icon"></p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">//文字超链接</div><div class="line">[<span class="string">github</span>](<span class="link">https://github.com/ "github site"</span>)</div><div class="line">//自动链接</div><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">https:</span>//<span class="attr">github.com</span>/&gt;</span></span></div><div class="line">//图片超链接</div><div class="line">![<span class="string">github</span>](<span class="link">https://github.com/fluidicon.png "github icon"</span>)</div><div class="line">//索引超链接</div><div class="line">[<span class="string">github</span>][<span class="symbol">1</span>]</div><div class="line">![<span class="string">github</span>][<span class="symbol">2</span>]</div><div class="line">[<span class="symbol">1</span>]:<span class="link">https://github.com/</span></div><div class="line">[<span class="symbol">2</span>]:<span class="link">https://github.com/fluidicon.png</span></div></pre></td></tr></table></figure>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>右键打开<code>Git-bash</code></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getId</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">return</span> id;</div><div class="line">  &#125;</div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setId</span><span class="params">(<span class="keyword">int</span> id)</span> </span>&#123;</div><div class="line">    <span class="keyword">this</span>.id = id;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-markdown/codeblock.png" alt=""></p>
+]]></content>
       
+        <categories>
+            
+            <category> 知识笔记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> markdown </tag>
+            
+        </tags>
         
     </entry>
     
