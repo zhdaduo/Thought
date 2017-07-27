@@ -236,12 +236,14 @@ div {
       .post .post-content p code {
         display: inline-block;
         font-family: source code pro;
+        border: 1px solid #DDD;
+        border-radius: 5px;
         margin: 0 5px;
         padding: 0 5px;
         background: #f7f8f8; }
       .post .post-content p a {
         color: #0366D6;
-        padding-bottom: 2px;
+        padding-bottom: 4px;
         word-break: break-all; }
         .post .post-content p a:hover {
           text-decoration: underline; }
