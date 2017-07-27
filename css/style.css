@@ -11,20 +11,16 @@ When setting the primary font stack, apply it to the Pure grid units along
 with `html`, `button`, `input`, `select`, and `textarea`. Pure Grids use
 specific font stacks to ensure the greatest OS/browser compatibility.
 */
-html,
-button,
-input,
-select,
-textarea,
+html, button, input, select, textarea,
 .MJXc-TeX-unknown-R,
 .pure-g [class*="pure-u"] {
   /* Set your content font stack here: */
-  font-family: "PingFangSC-Regular", Helvetica, "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Source Han Sans CN", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", sans-serif !important; }
+  font-family: "PingFangSC-Regular", Helvetica, "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Source Han Sans CN", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", "source code pro", sans-serif !important; }
 
 body {
   background-color: #FFF;
   color: #444;
-  font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", "source code pro ", SimSun, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 14px; }
@@ -38,8 +34,7 @@ body {
   padding-right: 50px;
   padding-top: 20px; }
 
-a,
-button.submit {
+a, button.submit {
   color: #6E7173;
   text-decoration: none;
   -webkit-transition: all .1s ease-in;
@@ -47,8 +42,7 @@ button.submit {
   -o-transition: all .1s ease-in;
   transition: all .1s ease-in; }
 
-a:hover,
-a:active {
+a:hover, a:active {
   color: #444; }
 
 a:focus {
@@ -241,7 +235,6 @@ div {
       margin: 0 0 1.234em; }
       .post .post-content p code {
         display: inline-block;
-        font-family: source code pro;
         margin: 0 5px;
         padding: 0 5px;
         background: #f7f8f8; }
@@ -268,26 +261,21 @@ div {
       padding: 0.5em 0;
       margin: auto;
       display: block; }
-    .post .post-content ul,
-    .post .post-content ol {
+    .post .post-content ul, .post .post-content ol {
       border-radius: 3px;
       margin: 1em 0; }
-      .post .post-content ul ul,
-      .post .post-content ol ul {
+      .post .post-content ul ul, .post .post-content ol ul {
         margin: 0; }
-      .post .post-content ul code,
-      .post .post-content ol code {
+      .post .post-content ul code, .post .post-content ol code {
         display: inline-block;
         margin: 0 5px;
         padding: 0px 5px;
         background: #f7f8f8; }
-      .post .post-content ul a,
-      .post .post-content ol a {
+      .post .post-content ul a, .post .post-content ol a {
         color: #01579f;
         padding-bottom: 2px;
         word-break: break-all; }
-        .post .post-content ul a:hover,
-        .post .post-content ol a:hover {
+        .post .post-content ul a:hover, .post .post-content ol a:hover {
           text-decoration: underline; }
   .post .tags {
     padding-bottom: 1em; }
@@ -308,31 +296,25 @@ div {
   .page-navigator .page-number {
     display: inline-block;
     margin: 0 5px 5px 0; }
-  .page-navigator a,
-  .page-navigator span {
+  .page-navigator a, .page-navigator span {
     display: inline-block;
     height: 25px;
     line-height: 25px;
     padding: 5px 9px;
     border: 1px solid #DDD;
     text-align: center; }
-    .page-navigator a:hover,
-    .page-navigator span:hover {
+    .page-navigator a:hover, .page-navigator span:hover {
       background: #F8F8F8;
       border-bottom-color: #D26911; }
-    .page-navigator a.prev,
-    .page-navigator span.prev {
+    .page-navigator a.prev, .page-navigator span.prev {
       float: left; }
-      .page-navigator a.prev:before,
-      .page-navigator span.prev:before {
+      .page-navigator a.prev:before, .page-navigator span.prev:before {
         font-family: "FontAwesome";
         content: "\f100";
         padding-right: 0.3em; }
-    .page-navigator a.next,
-    .page-navigator span.next {
+    .page-navigator a.next, .page-navigator span.next {
       float: right; }
-      .page-navigator a.next:after,
-      .page-navigator span.next:after {
+      .page-navigator a.next:after, .page-navigator span.next:after {
         font-family: "FontAwesome";
         content: "\f101";
         padding-left: 0.3em; }
@@ -393,8 +375,7 @@ div {
   .content_container {
     padding-right: 0; } }
 
-blockquote,
-.stressed {
+blockquote, .stressed {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 2.5em 0;
@@ -402,8 +383,7 @@ blockquote,
   color: #555;
   border-left: none; }
 
-blockquote:before,
-.stressed-quote:before {
+blockquote:before, .stressed-quote:before {
   content: "\201C";
   display: block;
   font-family: times;
@@ -415,9 +395,7 @@ blockquote:before,
   margin-left: -50px;
   position: absolute; }
 
-strong,
-b,
-em {
+strong, b, em {
   font-weight: bold; }
 
 pre {
@@ -493,10 +471,8 @@ pre {
   position: relative;
   margin-bottom: 30px; }
 
-#process .timeline-centered:before,
-#process .timeline-centered:after,
-#process .timeline-centered:before,
-#process .timeline-centered:after {
+#process .timeline-centered:before, #process .timeline-centered:after,
+#process .timeline-centered:before, #process .timeline-centered:after {
   content: " ";
   display: table; }
 
@@ -765,7 +741,6 @@ pre {
     content: "\f101";
     padding-left: 0.3em; }
   .readmore a:hover {
-    color: #FF5722;
     background: #F8F8F8;
     border-bottom-color: #FF5722; }
 
@@ -776,8 +751,7 @@ pre {
 #ds-thread #ds-reset .ds-replybox {
   margin-bottom: 30px; }
 
-#ds-thread #ds-reset .ds-replybox .ds-avatar,
-#ds-reset .ds-avatar img {
+#ds-thread #ds-reset .ds-replybox .ds-avatar, #ds-reset .ds-avatar img {
   box-shadow: none; }
 
 #ds-thread #ds-reset .ds-textarea-wrapper {
@@ -894,7 +868,10 @@ figure.highlight,
   line-height: 1.1em;
   color: #24292E;
   padding-top: 15px;
-  overflow: hidden; }
+  overflow: hidden;
+  border: 2px;
+  border-color: #000;
+  border-radius: 10px; }
   figure.highlight table,
   .codeblock table {
     display: block;
@@ -908,7 +885,7 @@ figure.highlight,
   .codeblock .code,
   .codeblock .tag {
     background-color: inherit;
-    font-family: Menlo, Consolas, monospace;
+    font-family: Menlo, Consolas, monospace, source code pro;
     border: 2px;
     padding: 0;
     margin: 0;
@@ -957,7 +934,7 @@ figure.highlight,
 
 .gist .line,
 .gist .line-number {
-  font-family: Menlo, Consolas, monospace;
+  font-family: Menlo, Consolas, monospace, source code pro;
   font-size: 1em;
   margin: 0 0 5px 0; }
 
