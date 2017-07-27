@@ -874,7 +874,7 @@ figure.highlight,
   overflow: hidden;
   border: 2px;
   border-color: #000;
-  border-radius: 10px; }
+  border-radius: 5px; }
   figure.highlight table,
   .codeblock table {
     display: block;
