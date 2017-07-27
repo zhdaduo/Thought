@@ -872,9 +872,8 @@ figure.highlight,
   color: #24292E;
   padding-top: 15px;
   overflow: hidden;
-  border: 2px;
-  border-color: #000;
-  border-radius: 5px; }
+  border: 1px solid #f0eeee;
+  border-radius: 10px; }
   figure.highlight table,
   .codeblock table {
     display: block;
