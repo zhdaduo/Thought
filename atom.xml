@@ -34,7 +34,7 @@
     <link href="https://zhdaduo.github.io/2017/07/26/explore-blog/"/>
     <id>https://zhdaduo.github.io/2017/07/26/explore-blog/</id>
     <published>2017-07-26T03:33:09.388Z</published>
-    <updated>2017-07-27T00:59:18.272Z</updated>
+    <updated>2017-07-27T01:01:44.852Z</updated>
     
     <content type="html"><![CDATA[<p>使用<code>GitHub</code> +  <code>hexo</code>  + <code>maupassant</code>主题搭建个人博客小结。</p>
 <a id="more"></a>
@@ -72,8 +72,6 @@
 <p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/new_repository.png" alt=""></p>
 <ol>
 <li>在Repository name对应处填写仓库名(Github用户名.github.io)，下一步Create repository。</li>
-</ol>
-<ol>
 <li>选择仓库上方的Setting， 进入设置页面。</li>
 </ol>
 <p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-blog/Setting.png" alt=""><br><code>Setting-&gt;GitHub Pages-&gt;Change Theme-&gt;Sellect Theme</code></p>
