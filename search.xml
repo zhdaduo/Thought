@@ -3,6 +3,14 @@
   
     
     <entry>
+      <title><![CDATA[Dagger 2 subcomponents vs component dependencies]]></title>
+      <url>/2017/08/02/Dagger-2-subcomponents-vs-component-dependencies/</url>
+      <content type="html"></content>
+      
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Markdown 使用小结]]></title>
       <url>/2017/07/26/explore-markdown/</url>
       <content type="html"><![CDATA[<p><code>Markdown</code>语法记录，<code>Github</code>上传图片小结。</p>
@@ -43,7 +51,15 @@
 <h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>右键打开<code>Git-bash</code></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getId</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">return</span> id;</div><div class="line">  &#125;</div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setId</span><span class="params">(<span class="keyword">int</span> id)</span> </span>&#123;</div><div class="line">    <span class="keyword">this</span>.id = id;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p><img src="https://github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-markdown/codeblock.png" alt=""></p>
-<h2 id="Github-上传图片"><a href="#Github-上传图片" class="headerlink" title="Github 上传图片"></a>Github 上传图片</h2><figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">!<span class="selector-attr">[]</span>(<span class="attribute">https</span>:<span class="comment">//github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-markdown/codeblock.png)</span></div><div class="line"><span class="attribute">https</span>:<span class="comment">//github.com/github用户名/github仓库名/raw/分支名/图片的路径/图片名称</span></div></pre></td></tr></table></figure>]]></content>
+<h2 id="Github-上传图片"><a href="#Github-上传图片" class="headerlink" title="Github 上传图片"></a>Github 上传图片</h2><figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">!<span class="selector-attr">[]</span>(<span class="attribute">https</span>:<span class="comment">//github.com/zhdaduo/zhdaduo.github.io/raw/master/2017/07/26/explore-markdown/codeblock.png)</span></div><div class="line"><span class="attribute">https</span>:<span class="comment">//github.com/github用户名/github仓库名/raw/分支名/图片的路径/图片名称</span></div></pre></td></tr></table></figure>
+<h2 id="Github软件"><a href="#Github软件" class="headerlink" title="Github软件"></a>Github软件</h2><p><a href="http://www.sdifen.com/mweb223.html" target="_blank" rel="external">mweb</a>(mac)</p>
+<p><img src="http://zh.mweb.im/asset/img/cn/1-1.jpg" alt=""></p>
+<p><a href="https://www.zybuluo.com/mdeditor" target="_blank" rel="external">Cmd Markdown</a>(web)</p>
+<p><a href="https://www.zybuluo.com/cmd/" target="_blank" rel="external">Cmd Markdown download</a>(mac, windows, linux)</p>
+<p><img src="https://www.zybuluo.com/cmd/img/sync%20preview.png" alt=""></p>
+<p><a href="https://www.typora.io/" target="_blank" rel="external">Typora</a>(mac, windows, linux)</p>
+<p><img src="https://www.typora.io/img/theme-prev/Snip20141101_6.png" alt=""></p>
+]]></content>
       
         <categories>
             
